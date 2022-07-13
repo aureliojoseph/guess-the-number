@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg-xml" href="/img/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Guess the Number!</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="heading">Guess the Number!</h1>
+
+      <p class="range">(Between 1 and 20)</p>
+
+      <!-- <button class="btn language">
+        Play in <br />
+        English!
+      </button> -->
+
+      <button class="btn again again--1">
+        Play <br />
+        Again!
+      </button>
+
+      <div class="number">?</div>
+    </header>
+
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+
+        <button class="btn check check--1">Check!</button>
+      </section>
+
+      <section class="right">
+        <p class="message">Start to play...</p>
+
+        <p class="label-score">
+          💯 Score: <span class="score score--1">20</span>
+        </p>
+
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
